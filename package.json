@@ -1,0 +1,30 @@
+{
+  "name": "cal-clone-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade Cal.com clone built with the MERN stack",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:web-react": "npm run dev --workspace=apps/web-react",
+    "dev:server": "npm run dev --workspace=apps/server",
+    "build:web": "npm run build --workspace=apps/web",
+    "build:web-react": "npm run build --workspace=apps/web-react",
+    "build:server": "npm run build --workspace=apps/server",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "keywords": [
+    "mern",
+    "scheduling",
+    "calcom",
+    "nextjs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
