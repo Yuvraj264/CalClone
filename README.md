@@ -1,6 +1,6 @@
 # CalClone — Production-Grade Open Source Scheduling Infrastructure
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.0--rc-black?logo=next.js)](https://nextjs.org)
+[![React.js](https://img.shields.io/badge/Next.js-15.0--rc-black?logo=next.js)](https://nextjs.org)
 [![Express](https://img.shields.io/badge/Express-4.19-lightgray?logo=express)](https://expressjs.com)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)](https://mongodb.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript)](https://typescriptlang.org)
@@ -20,7 +20,7 @@
 
 ## 🛠 Tech Stack
 
-*   **Frontend**: Next.js (v15.0 App Router), TypeScript, Tailwind CSS, Framer Motion, React Hook Form, Zod.
+*   **Frontend**: React.js, TypeScript, Tailwind CSS, Framer Motion, React Hook Form, Zod.
 *   **Backend**: Express.js, TypeScript, Mongoose, Day.js (Timezone & UTC plugins), Cors, Helmet.
 *   **Workspace**: npm workspaces monorepo structure with shared types packages.
 
@@ -45,7 +45,7 @@ CalClone is built using a clean monorepo architecture:
 ```text
 ├── apps/
 │   ├── server/             # Express.js backend (MVC pattern)
-│   └── web/                # Next.js 15 client
+│   └── web/                # React.js 
 ├── packages/
 │   └── types/              # Shared TypeScript definitions
 ```
