@@ -9,6 +9,7 @@ dotenv.config();
 
 const sampleUsers = [
   {
+    _id: new mongoose.Types.ObjectId('6a10d89c745d3843646ad2a7'),
     name: 'Alice Developer',
     fullName: 'Alice Developer',
     username: 'alice',
@@ -17,6 +18,7 @@ const sampleUsers = [
     timezone: 'Asia/Kolkata',
   },
   {
+    _id: new mongoose.Types.ObjectId('6b10d89c745d3843646ad2a8'),
     name: 'Bob Designer',
     fullName: 'Bob Designer',
     username: 'bob',
