@@ -12,8 +12,8 @@
 
 ## 🚀 Live Demo & Hosting
 
-*   **Live Web Client**: [https://calclone-web.vercel.app](https://calclone-web.vercel.app)
-*   **Live API Backend**: [https://calclone-server.onrender.com/health](https://calclone-server.onrender.com/health)
+*   **Live Web Client**: https://cal-clone-server-56za.vercel.app/
+*   **Live API Backend**: https://cal-clone-server.vercel.app/
 *   **Cloud Database**: MongoDB Atlas Shared Cluster
 
 ---
