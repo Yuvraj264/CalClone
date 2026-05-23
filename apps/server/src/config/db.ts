@@ -4,8 +4,7 @@ export const connectDB = async (): Promise<void> => {
   const MONGO_URI = process.env.MONGO_URI;
 
   if (!MONGO_URI) {
-    console.error('[CRITICAL DATABASE FAILURE]: MONGO_URI environment variable is not defined.');
-    process.exit(1);
+    throw new Error('[CRITICAL DATABASE FAILURE]: MONGO_URI environment variable is not defined.');
   }
 
   try {
@@ -19,7 +18,6 @@ export const connectDB = async (): Promise<void> => {
     );
   } catch (error: any) {
     console.error(`[DATABASE ERROR]: Connection attempt failed: ${error.message}`);
-    // Graceful process tear down on persistent failure
-    process.exit(1);
+    throw new Error(`[DATABASE ERROR]: Connection attempt failed: ${error.message}`);
   }
 };
