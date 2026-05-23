@@ -1,4 +1,7 @@
 {
+  "env": {
+    "VITE_API_URL": "https://cal-clone-server.vercel.app/api/v1"
+  },
   "rewrites": [
     {
       "source": "/(.*)",
